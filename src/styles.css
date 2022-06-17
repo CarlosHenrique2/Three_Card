@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title_style {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.content_style {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #ffffff;
+}
+
+.btn_style {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #e28625;
+  border: none;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  padding: 9px 28px 9px 28px;
+}
+
+@media (max-width: 800px) {
+  .container_card {
+    display: flex;
+    flex-direction: column;
+    max-height: 1326px;
+    max-width: 327px;
+    background-color: #e28625;
+    border-radius: 8px;
+    z-index: -2;
+  }
+  .container_card_orange {
+    height: 442px;
+    width: 327px;
+    z-index: 1;
+  }
+
+  .container_card_light-blue {
+    height: 442px;
+    width: 327px;
+    background-color: #006971;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  .container_card_dark-green {
+    height: 442px;
+    width: 327px;
+    background-color: #004140;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  .btn {
+    padding: 12px 31px 12px 31px;
+    margin-left: 48px;
+    background: #f2f2f2;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 48px;
+  }
+
+  .content {
+    padding-left: 48px;
+    width: 212px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container_card {
+    display: flex;
+    max-height: 500px;
+    max-width: 920px;
+    background-color: #e28625;
+    border-radius: 8px;
+    z-index: -2;
+  }
+  .btn {
+    padding: 12px 31px 12px 31px;
+    margin-left: 48px;
+    background: #f2f2f2;
+    border-radius: 25px;
+  }
+
+  .content {
+    padding-left: 48px;
+    margin-bottom: 83px;
+    height: 125px;
+    width: 212px;
+  }
+}

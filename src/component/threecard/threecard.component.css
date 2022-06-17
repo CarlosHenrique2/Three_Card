@@ -1,0 +1,32 @@
+.carimg {
+  margin: 48px 0 35px 48px;
+}
+
+.title {
+  padding-left: 48px;
+  margin-bottom: 25px;
+}
+
+.container_card_orange {
+  height: 500px;
+  width: 307px;
+  background-color: #e28625;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.container_card_light-blue {
+  height: 500px;
+  width: 307px;
+  background-color: #006971;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.container_card_dark-green {
+  height: 500px;
+  width: 307px;
+  background-color: #004140;
+  border-radius: 8px;
+  z-index: 1;
+}
